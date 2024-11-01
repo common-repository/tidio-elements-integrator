@@ -1,0 +1,393 @@
+.tidio-content {
+	padding: 0px;
+}
+
+.tidio-content hr {
+	margin: 15px 0px;
+	width: 650px;
+	height: 1px;
+	border: 0;
+	background: #ccc;
+}
+
+.tidio-content,
+.tidio-content p {
+	font-size: 14px;
+}
+
+.tidio-content h2 {
+	margin-bottom: 20px;
+}
+
+.tidio-content h2 .logout-link {
+	font-size: 14px;
+	font-weight: normal;
+	margin-right: 200px;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+.tidio-content .logo {
+	margin: 0px 0px 25px;
+}
+
+/* Top Logo */
+
+#tidio-top-logo {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	background-image: url('../img/brand-logo.png');
+	display: block;
+	width: 180px;
+	height: 27px;
+}
+
+/* Form - Default */
+
+.form-default {
+	display: block;
+	width: 550px;
+}
+
+.form-default > .e {
+	width: 650px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.form-default > .e:last-child {
+	border-bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.form-default > .e:before,
+.form-default > .e:after { content: "."; display: block; height: 0; overflow: hidden; }
+.form-default > .e:after { clear: both; }
+
+
+
+.form-default > .e label {
+	float: left;
+	width: 150px;
+}
+
+.form-default > .e input,
+.form-default > .e textarea,
+.form-default > .e select {
+	width: 400px;
+	float: right;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-without-label > .e {
+	width: 100%;
+}
+
+.form-without-label > .e input,
+.form-without-label > .e textarea,
+.form-without-label > .e select {
+	width: 100%;
+	float: none;
+}
+
+
+.form-default > .e-submit {
+	text-align: left;
+}
+
+.form-default > .e-submit .btn {
+	padding: 12px 45px;
+}
+
+.form-default .e-about {
+	width: 75%;
+	border: 1px solid #D7D9D8;
+	padding: 15px 15px;
+	box-sizing: border-box;
+	margin-top: 25px;
+	font-size: 13px;
+	background: #D7D9D8;
+	background: rgba(215, 217, 217, 0.3);
+}
+
+.form-default .e-about a {
+	font-size: inherit;
+	text-decoration: underline;
+}
+
+.form-default input,
+.form-default textarea,
+.form-default select {
+	border: 1px solid #ccc;
+	padding: 8px 12px;
+}
+
+
+
+/* Tab */
+
+.tab-nav {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.tab-nav > li {
+	float: left;
+	background: #E8E4D9;
+	margin: 0;
+}
+
+.tab-nav > li a {
+	color: #333;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 14px 40px;
+	display: block;
+
+	background: #32475c;
+	color: #ffffff;
+	
+	text-decoration: none;
+	
+	/*
+	
+	-webkit-transition: background 300ms;
+	-moz-transition: background 300ms;
+	-ms-transition: background 300ms;
+	-o-transition: background 300ms;
+	transition: background 300ms;
+	
+	*/
+} 
+
+.tab-nav > li.active a,
+.tab-nav > li:hover a {
+	background: #ffffff;
+	color: #32475c;
+}
+
+.tab-content {
+	display: none;
+}
+
+.tab-content:not(.default) {
+	background: #fff;
+	width: 100%;
+
+	min-height: 200px;
+	padding: 15px 30px;
+	
+	color: #394C5D;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tab-content.active {
+	display: block;
+}
+
+.tab-content.inactive {
+	display: none !important;
+}
+
+.tab-content.inactive-active {
+	display: block !important;
+}
+
+/* Btn */
+
+.tidio-content .btn {
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	border: 0;
+	
+	
+	-webkit-transition: background 150ms;
+	-moz-transition: background 150ms;
+	-ms-transition: background 150ms;
+	-o-transition: background 150ms;
+	transition: background 150ms;
+}
+
+.tidio-content .btn,
+.tidio-content .btn.btn-primary {
+	background-color: #32475C;
+	padding: 8px 10px;
+	color: #fff;
+}
+
+.tidio-content .btn:hover,
+.tidio-content .btn.btn-primary:hover,
+.tidio-content .btn.active {
+	background-color: #4D96FD;
+}
+
+.tidio-content .btn-border,
+.tidio-content .btn-border:hover,
+.tidio-content .btn-border.active {
+	background: transparent;
+	border: 1px solid #32475C;
+	color: #333;
+}
+
+.tidio-content .btn-border:hover,
+.tidio-content .btn-border.active {
+	border-color: #4D96FD;
+}
+
+
+.tidio-content .btn.btn-large {
+	padding: 8px 45px;
+}
+
+/* Projects */
+
+.projects {
+	
+} 
+
+.projects .e {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	cursor: pointer;
+		
+	border: 5px solid transparent;
+}
+
+.projects .e.active,
+.projects .e:hover {
+	border: 5px solid #639DBC;
+}
+
+.projects .e .photo {
+	width: 200px;
+	height: 150px;
+}
+
+.projects .e .blank {
+	background-image: url('../img/transparent.png');
+	background-repeat: repeat;
+}
+
+
+.projects .e .name {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	
+	background-color: rgba(0,0,0,.75);
+	
+	padding: 7px 10px;
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Alert */
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+.alert .alert-link {
+  font-weight: bold;
+}
+
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+
+.alert-success .alert-link {
+  color: #2b542c;
+}
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+
+.alert-info .alert-link {
+  color: #245269;
+}
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+
+.alert-warning .alert-link {
+  color: #66512c;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+
+.alert-danger .alert-link {
+  color: #843534;
+}
+
+
+/* Button Large */
+
+.button-huge {
+	font-size: 14px !important;
+	padding: 5px 22px !important;
+	height: auto !important;
+}
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after { content: "."; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+
